@@ -7,6 +7,7 @@ Step-by-step repair guide and Python EEPROM (ST M95080) patcher for Magneti Mare
 > This repository is provided strictly for **educational, diagnostic, and Right-to-Repair purposes** to help legal vehicle owners restore engine functionality on aging vehicles (25+ years old) suffering from immobilizer hardware failures.  
 > - This repository **DOES NOT** contain or distribute any proprietary Volkswagen or Magneti Marelli binary dumps (`.bin` / `.hex`).  
 > - All procedures and scripts operate exclusively on the user's own legally extracted EEPROM backup.
+> - This script is configured for ECU Software SW: 3979 (VW Polo 6N2 1.4 16V). If you are working on a different SW version, verify your offsets in a Hex Editor before running the patcher.
 
 ---
 
