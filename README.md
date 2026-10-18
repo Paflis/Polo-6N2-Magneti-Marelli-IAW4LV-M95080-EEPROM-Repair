@@ -104,10 +104,9 @@ Run the included patcher script against your backup file:
 python iaw4lv_patcher.py original.bin immo_off.bin
 ```
 
+<img width="1408" height="248" alt="01--00" src="https://github.com/user-attachments/assets/d7654fcd-312c-4008-b215-67d79f8d36e9" />
 
-<img width="1408" height="248" alt="01--00" src="https://github.com/user-attachments/assets/aa2206b8-0685-4757-bba6-df832faf03d0" />
-
-<img width="1406" height="251" alt="A9--AA" src="https://github.com/user-attachments/assets/2ea8a29a-cc80-4f25-808e-4f2933e879f1" />
+<img width="1406" height="251" alt="A9--AA" src="https://github.com/user-attachments/assets/29ad3e83-596b-4ee8-8f4c-f19db6cc53d0" />
 
 <img width="644" height="458" alt="Screenshot 2026-10-13 212409" src="https://github.com/user-attachments/assets/53192ec2-3b5f-46da-9ed0-b9fc31520b38" />
 
