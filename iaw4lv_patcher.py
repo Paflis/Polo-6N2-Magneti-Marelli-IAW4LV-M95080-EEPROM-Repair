@@ -25,15 +25,15 @@ EMPTY_DUMP_CRC32 = 0xB83AFFF4
 
 PATCH_RULES = [
     {
-        "offset": 0x0095,          # First immobilizer status flag byte
+        "offset": 0x0093,          # Row 00000090, Column 3 (0x01 -> 0x00)
         "expected_orig": 0x01,     # Safety check: expects original stock value 0x01
         "new_value": 0x00,         # Patched value for Immo Off
         "description": "Immobilizer Status Flag 1"
     },
     {
-        "offset": 0x0096,          # Second byte / associated checksum offset
+        "offset": 0x0095,          # Row 00000090, Column 5 (0xA9 -> 0xAA)
         "expected_orig": 0xA9,     # Safety check: expects original stock value 0xA9
-        "new_value": 0xAA,         # Patched value
+        "new_value": 0xAA,         # Patched value / Checksum adjustment
         "description": "Immobilizer Status Flag 2 / Checksum"
     }
 ]
